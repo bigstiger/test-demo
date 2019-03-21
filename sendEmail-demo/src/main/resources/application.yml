@@ -1,0 +1,4 @@
+spring:
+  mail:
+  username: 965553142@qq.com
+  copyTo: 13052908568@163.com
