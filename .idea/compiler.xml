@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sendEmail-demo" />
+        <module name="thread-demo" />
       </profile>
     </annotationProcessing>
   </component>
@@ -14,6 +15,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sendEmail-demo" options="-parameters" />
       <module name="test-demo" options="-parameters" />
+      <module name="thread-demo" options="-parameters" />
     </option>
   </component>
 </project>
