@@ -10,6 +10,11 @@
         <module name="thread-demo" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sendEmail-demo" target="1.8" />
+      <module name="test-demo" target="1.8" />
+      <module name="thread-demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
