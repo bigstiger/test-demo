@@ -6,18 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="lombok-demo" />
+        <module name="reflect-demo" />
         <module name="sendEmail-demo" />
         <module name="thread-demo" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="sendEmail-demo" target="1.8" />
-      <module name="test-demo" target="1.8" />
-      <module name="thread-demo" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lombok-demo" options="-parameters" />
+      <module name="reflect-demo" options="-parameters" />
       <module name="sendEmail-demo" options="-parameters" />
       <module name="test-demo" options="-parameters" />
       <module name="thread-demo" options="-parameters" />

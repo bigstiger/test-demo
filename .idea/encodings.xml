@@ -2,6 +2,28 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lombok-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/classd/ClassDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/classd/ClassObjectDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/classd/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/field/FieldDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/field/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/method/MethodDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/method/Student.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/GirlGeneration.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/GirlGeneration.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/PartyDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/PartyFactory.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/ZhangXueYou.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/ZhangXueYou.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/ZhaoBenShan.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/ZhaoBenShan.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/service/GirlGeneration.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/service/ZhangXueYou.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/party/service/ZhaoBenShan.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/reflect/ReflectDemo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/reflect-demo/src/main/java/com/stiger/reflect/Student.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/sendEmail-demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/thread-demo" charset="UTF-8" />
   </component>
