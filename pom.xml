@@ -13,6 +13,7 @@
         <module>thread-demo</module>
         <module>reflect-demo</module>
         <module>lombok-demo</module>
+        <module>dynamicProxy-demo</module>
     </modules>
 
     <parent>
