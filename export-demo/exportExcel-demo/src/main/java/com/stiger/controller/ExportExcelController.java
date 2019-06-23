@@ -4,12 +4,10 @@ import com.stiger.service.ExportExcelService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -23,11 +21,14 @@ public class ExportExcelController {
 
     private static Logger logger = LoggerFactory.getLogger(ExportExcelController.class);
 
+
     @Autowired
     private ExportExcelService exportExcelService;
 
     @PostMapping("exportByIds")
-    public void exportByIds(@RequestParam List<Integer> ids, HttpServletResponse response){
+    public void exportByIds(@RequestParam String id, HttpServletResponse response){
+        List<Integer> ids = new ArrayList<>();
+        ids.add(Integer.valueOf(id));
         exportExcelService.exportByIds(ids, response);
     }
 }

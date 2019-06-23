@@ -1,17 +1,16 @@
 package com.stiger.service.impl;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.stiger.exportExcel.ExportExcelDao;
 import com.stiger.exportExcel.Student;
 import com.stiger.service.ExportExcelService;
 import org.jxls.template.SimpleExporter;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.List;
 
@@ -20,6 +19,7 @@ import java.util.List;
  * @Date: 2019/6/22 16:21
  * @Description:
  */
+@Service
 public class ExportExcelServiceImpl extends ServiceImpl<ExportExcelDao, Student> implements ExportExcelService {
 
     @Autowired

@@ -15,7 +15,6 @@
         <module>lombok-demo</module>
         <module>dynamicProxy-demo</module>
         <module>export-demo</module>
-        <module>common</module>
     </modules>
 
     <parent>
@@ -53,24 +52,31 @@
             <type>pom</type>
             <scope>import</scope>
         </dependency>
-        <!-- mybatis启动器 -->
+
+        <!--mybaits plus 插件 数据操作-->
         <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.1.1</version>
+        </dependency>
+        <!-- mybatis启动器 -->
+        <!--<dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
             <version>${mybatis.starter.version}</version>
-        </dependency>
+        </dependency>-->
         <!-- 通用Mapper启动器 -->
-        <dependency>
+        <!--<dependency>
             <groupId>tk.mybatis</groupId>
             <artifactId>mapper-spring-boot-starter</artifactId>
             <version>${mapper.starter.version}</version>
-        </dependency>
+        </dependency>-->
         <!-- 分页助手启动器 -->
-        <dependency>
+        <!--<dependency>
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>${pageHelper.starter.version}</version>
-        </dependency>
+        </dependency>-->
         <!-- mysql驱动 -->
         <dependency>
             <groupId>mysql</groupId>
@@ -81,12 +87,6 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.4</version>
-        </dependency>
-        <!--mybaits plus 插件 数据操作-->
-        <dependency>
-            <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.1.1</version>
         </dependency>
     </dependencies>
 
